@@ -154,20 +154,8 @@ body {
 }
 
 .team-card {
+  background-color: #fff;
 }
-
-/* .team-member-name {
-  font-size: 20px;
-  line-height: 0, 83;
-  letter-spacing: 2%;
-  font-weight: 500;
-}
-
-.team-member-status {
-  font-size: 16px;
-  line-height: 0, 67;
-  letter-spacing: 2%;
-  font-weight: 400; */
 
 /* #endregion team */
 
