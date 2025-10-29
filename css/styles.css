@@ -9,14 +9,13 @@ a {
 }
 
 body {
-  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
 
 .section-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
@@ -25,6 +24,7 @@ body {
 }
 
 .card-name {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -67,6 +67,7 @@ body {
 }
 
 .nav-list {
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -81,23 +82,23 @@ body {
   font-style: normal;
 }
 
-.contact-element:hover,
-.contact-element:focus,
-.contact-element:active {
-  color: #404bbf;
-}
-
 .contact-list {
   font-weight: 400;
 }
 
-.contact-element {
+.contacts {
 }
 
-.email {
+.contact-item {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.contact-item:hover,
+.contact-item:focus,
+.contact-item:active {
+  color: #404bbf;
 }
 /* #endregion */
 
@@ -137,12 +138,10 @@ body {
 /* #region benefits */
 
 .benefits-section {
+  background-color: #fff;
 }
 
 .benefits-title {
-}
-
-.benefit-card {
 }
 
 /* #endregion benefits */
@@ -178,4 +177,14 @@ body {
 /* #endregion portfolio */
 
 /* #region footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* #endregion footer */
