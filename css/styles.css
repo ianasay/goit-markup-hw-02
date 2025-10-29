@@ -1,0 +1,155 @@
+/* #region common */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #2e2f42;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 0.9;
+}
+
+.card-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.83;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 0.67;
+}
+
+/* #endregion common */
+
+/* #region header */
+.page-header {
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 2%;
+}
+
+.page-nav {
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3%;
+  line-height: 0.86;
+}
+
+.logo-color-part {
+  color: #4d5ae5;
+}
+
+.nav-list {
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-element:hover,
+.contact-element:focus {
+  color: #404bbf;
+}
+
+.contact-list {
+  font-weight: 400;
+}
+
+.contact-element {
+}
+/* #endregion */
+
+/* #region hero */
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.slogan {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.main-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 4%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:active {
+  background-color: #404bbf;
+}
+
+/* #endregion hero */
+
+/* #region benefits */
+
+.benefits-section {
+}
+
+.benefits-title {
+  display: none;
+}
+
+.benefit-card {
+}
+
+/* #endregion benefits */
+
+/* #region team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-card {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.24);
+}
+
+/* .team-member-name {
+  font-size: 20px;
+  line-height: 0, 83;
+  letter-spacing: 2%;
+  font-weight: 500;
+}
+
+.team-member-status {
+  font-size: 16px;
+  line-height: 0, 67;
+  letter-spacing: 2%;
+  font-weight: 400; */
+
+/* #endregion team */
+
+/* #region portfolio */
+
+/* #endregion portfolio */
+
+/* #region footer */
+/* #endregion footer */

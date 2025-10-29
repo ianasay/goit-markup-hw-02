@@ -9,30 +9,38 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- #region header -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio </a>
-        <ul>
-          <li>
-            <a href="#">Studio</a>
+    <header class="page-header">
+      <nav class="page-nav">
+        <a class="logo" href="./index.html">
+          <span class="logo-color-part">Web</span>Studio
+        </a>
+        <ul class="nav-list">
+          <li class="nav-element">
+            <a class="nav-link" href="#">Studio</a>
           </li>
-          <li>
-            <a href="#">Portfolio</a>
+          <li class="nav-element">
+            <a class="nav-link" href="#">Portfolio</a>
           </li>
-          <li>
-            <a href="#">Contacts</a>
+          <li class="nav-element">
+            <a class="nav-link" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
+      <address class="contacts">
+        <ul class="contact-list">
+          <li class="contact-element">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="contact-element">
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
@@ -41,39 +49,39 @@
     <!-- #endregion header -->
     <main>
       <!-- #region hero -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="slogan">Effective Solutions<br />for Your Business</h1>
+        <button class="main-button" type="button">Order Service</button>
       </section>
       <!-- #endregion hero -->
       <!-- #region benefits -->
-      <section>
-        <h2>benefits</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="benefits-section">
+        <h2 class="benefits-title">benefits</h2>
+        <ul class="benefits-list">
+          <li class="benefit-card">
+            <h3 class="card-name">Strategy</h3>
+            <p class="card-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="benefit-card">
+            <h3 class="card-name">Punctuality</h3>
+            <p class="card-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="benefit-card">
+            <h3 class="card-name">Diligence</h3>
+            <p class="card-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="benefit-card">
+            <h3 class="card-name">Technologies</h3>
+            <p class="card-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -82,57 +90,126 @@
       </section>
       <!-- #endregion benefins -->
       <!-- #region team -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="team-section">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-card">
             <img
               src="./images/mark.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="card-name">Mark Guerrero</h3>
+            <p class="card-text">Product Designer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/tom.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="card-name">Tom Ford</h3>
+            <p class="card-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/camila.jpg"
-              alt="Mark Guerrero"
+              alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="card-name">Camila Garcia</h3>
+            <p class="card-text">Marketing</p>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/daniel.jpg"
-              alt="Mark Guerrero"
+              alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="card-name">Daniel Wilson</h3>
+            <p class="card-text">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- #endregion team -->
+      <!-- #region portfolio -->
+      <section class="portfolio-section">
+        <h2 class="section-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-card">
+            <img
+              src="./images/banking.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3 class="card-name">Banking App</h3>
+            <p class="card-text">App</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/payment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3 class="card-name">Cashless Payment</h3>
+            <p class="card-text">Marketing</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/meditation.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3 class="card-name">Meditation App</h3>
+            <p class="card-text">App</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/taxi.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3 class="card-name">Taxi Service</h3>
+            <p class="card-text">Marketing</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/screen.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3 class="card-name">Screen Illustrations</h3>
+            <p class="card-text">Design</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/online.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3 class="card-name">Online Courses</h3>
+            <p class="card-text">Marketing</p>
+          </li>
+        </ul>
+      </section>
+      <!-- #endregion portfolio -->
     </main>
     <!-- #region footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo" href="./index.html">
+        <span class="logo-color-part">Web</span>Studio
+      </a>
+      <p class="footer-ttext">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
