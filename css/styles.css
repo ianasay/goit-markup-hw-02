@@ -130,7 +130,7 @@ body {
 .main-button:hover,
 .main-button:active,
 .main-button:focus {
-  background-color: ##404bbf;
+  background-color: #404bbf;
 }
 
 /* #endregion hero */
@@ -141,7 +141,8 @@ body {
   background-color: #fff;
 }
 
-.benefits-title {
+.benefits-card {
+  background-color: #fff;
 }
 
 /* #endregion benefits */
