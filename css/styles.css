@@ -9,25 +9,33 @@ a {
 }
 
 body {
-  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  color: #434455;
+  background-color: #fff;
 }
 
 .section-title {
+  text-align: center;
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .card-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .card-text {
+  color: #434455;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* #endregion common */
@@ -43,18 +51,25 @@ body {
 }
 
 .logo {
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
+  font-size: 18px;
   text-transform: uppercase;
+  font-weight: 700;
   letter-spacing: 3%;
   line-height: 0.86;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo-color-part {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-list {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -67,7 +82,8 @@ body {
 }
 
 .contact-element:hover,
-.contact-element:focus {
+.contact-element:focus,
+.contact-element:active {
   color: #404bbf;
 }
 
@@ -76,6 +92,12 @@ body {
 }
 
 .contact-element {
+}
+
+.email {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion */
 
@@ -88,22 +110,26 @@ body {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 0.9;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   color: #fff;
   background-color: #4d5ae5;
   font-size: 16px;
-  line-height: 0.67;
-  letter-spacing: 4%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .main-button:hover,
-.main-button:active {
-  background-color: #404bbf;
+.main-button:active,
+.main-button:focus {
+  background-color: ##404bbf;
 }
 
 /* #endregion hero */
@@ -114,7 +140,6 @@ body {
 }
 
 .benefits-title {
-  display: none;
 }
 
 .benefit-card {
@@ -129,7 +154,6 @@ body {
 }
 
 .team-card {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.24);
 }
 
 /* .team-member-name {
@@ -148,7 +172,9 @@ body {
 /* #endregion team */
 
 /* #region portfolio */
-
+.portfolio-section {
+  background-color: #fff;
+}
 /* #endregion portfolio */
 
 /* #region footer */
